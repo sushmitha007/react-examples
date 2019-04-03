@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return <h1>Hello world!</h1>
-  }
+const App = () => {
+  return <h3>Hello World!Welcome to Stackroute</h3>
 }
 export default App;
