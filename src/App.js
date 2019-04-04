@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Child from './Child';
+import Users from './users/Users';
 
-//child component
-const App = (props) => {
-  return <Child name={props.name} message = "HelloWorld!" />
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Users/>
+      </div>
+    );
+  }
 }
 export default App;
